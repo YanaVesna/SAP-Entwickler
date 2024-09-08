@@ -1,0 +1,264 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #ffff;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 80px 0;
+  margin-left: -90px;
+  margin-right: -90px;
+  margin-top: -75px;
+  /*  margin-bottom: 40px; */
+  /* background: #595959; */
+}
+
+.Projects {
+  margin-bottom: 50px;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.project-link {
+  margin-left: 10px;
+
+  p {
+    font-weight: 600;
+  }
+}
+
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+span {
+  text-decoration: underline;
+  color: #0000ff;
+}
+
+.project-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.Work {
+  margin-bottom: 45px;
+}
+
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/*   */
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.organisation {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(251, 109, 58, 1);
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.Line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+/*        */
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.main-content {
+  background-color: #ffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e2939;
+  padding-top: 40px;
+  padding-right: 35px;
+  padding-left: 35px;
+  width: 370px;
+}
+
+.sidebar_img {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  margin-top: 35px;
+  margin-bottom: 95px;
+}
+
+.photo {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.tech-skills {
+  margin-bottom: 45px;
+}
+
+.soft-skills {
+  margin-bottom: 45px;
+}
+
+.sidebar-letters {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  opacity: 0.5;
+}
+
+.contact-link1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.tech-skills-item {
+  color: #fb6d3a;
+}
+
+.tech-skills-text {
+  color: #ffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.sidebar-title {
+  color: #ffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.tech-skills-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffff;
+  padding: 0;
+  margin-left: 15px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 17px;
+  color: #e18240;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.about-name {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #1e2939;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+  width: 650px;
+  margin-top: 0px;
+}
